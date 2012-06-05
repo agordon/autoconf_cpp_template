@@ -9,7 +9,8 @@
 # implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 #!/bin/sh
-rm -f config.cache
+rm -f config.cache autom4te.cache
+
 mkdir -p config
 echo "- aclocal."
 aclocal -I m4
