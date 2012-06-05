@@ -10,4 +10,6 @@ TODO:
    (it will be used automatically next time you run "./reconf")
 3. If you need "libtool", enable it in "reconf" and "configure.ac"
 4. If you need "boost", enable it in "configure.ac" and "src/Makefile.am"
-
+5. Change the name of binary program in "src/Makefile.am"
+6. update ".gitignore" as necessary
+7. If you've cloned this program, delete the ".git" directory and start fresh with "git init"
