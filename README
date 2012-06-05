@@ -1,0 +1,13 @@
+Autotools Template for a CPP-based program
+
+Copyright (C) 2012    A. Gordon (gordon at cshl dot edu)
+
+LICENCE: GPLv3+
+
+TODO:
+1. Change you package name in "configure.ac"
+2. Create a git repository, use "git tag -a v0.1" to tag a version
+   (it will be used automatically next time you run "./reconf")
+3. If you need "libtool", enable it in "reconf" and "configure.ac"
+4. If you need "boost", enable it in "configure.ac" and "src/Makefile.am"
+
